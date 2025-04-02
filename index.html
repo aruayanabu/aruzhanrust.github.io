@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудио и Видео</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+        .section {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Меню -->
+    <nav>
+        <ul>
+            <li><a href="#audio" class="nav-link">Аудио</a></li>
+            <li><a href="#video" class="nav-link">Видео</a></li>
+        </ul>
+    </nav>
+
+    <!-- Раздел "Аудио" -->
+    <div id="audio" class="section">
+        <h2>Аудио</h2>
+        <audio controls>
+            <source src="deti-online.com_-_kogda-sonya-byla-malenkoy%20(1).mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает элемент <audio>.
+        </audio>
+    </div>
+
+    <!-- Раздел "Видео" -->
+    <div id="video" class="section">
+        <h2>Видео</h2>
+        <video controls>
+            <source src="https://rutube.ru/video/d80fefc5ce5b1cda2113bdb39dcd92c1/?r=wd" type="video/mp4">
+            Ваш браузер не поддерживает элемент <video>.
+        </video>
+        <p>Для вставки видео с YouTube, используйте следующий код:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/код_видео" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта и Анимация</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .animate {
+            animation: fadein 2s;
+        }
+        @keyframes fadein {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Меню -->
+    <nav>
+        <ul>
+            <li><a href="#map" class="nav-link">Карта</a></li>
+            <li><a href="#animation" class="nav-link">Анимация</a></li>
+        </ul>
+    </nav>
+
+    <!-- Раздел "Карта" -->
+    <div id="map" class="section">
+        <h2>Карта</h2>
+        <!-- Вставьте код встроенной карты, например Google Maps -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.96305791531697!3d-37.814107979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c1d7fca0e00e!2sUniversity%20of%20Melbourne!5e0!3m2!1sen!2sru!4v1613000000000!5m2!1sen!2sru" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allow
